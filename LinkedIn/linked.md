@@ -6,6 +6,6 @@
 The assignment requires four public posts written personally by the student. No post text has been drafted here because that requirement prohibits AI-generated copy. Add each live public post URL after writing and publishing it yourself.
 
 1. Test doubles — [[click here](https://lnkd.in/p/eDAaTNYP)]
-2. Bogus — [Add public post URL]
+2. Bogus — [[Click here](https://lnkd.in/p/ezPRzk22)]
 3. TDD — [Add public post URL]
 4. Coverage — [Add public post URL]
