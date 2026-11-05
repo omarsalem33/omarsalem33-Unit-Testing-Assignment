@@ -7,3 +7,4 @@ public interface ILineItemFactory
 {
     List<LineItem> Create(Booking booking, ReturnReport? report);
 }
+

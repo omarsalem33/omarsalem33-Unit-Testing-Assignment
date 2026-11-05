@@ -12,3 +12,4 @@ public class ReturnReport
     public decimal DamageCharge { get; set; }
     public decimal TotalExtra { get; set; }
 }
+

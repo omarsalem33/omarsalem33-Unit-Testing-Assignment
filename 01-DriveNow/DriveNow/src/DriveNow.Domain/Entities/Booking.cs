@@ -23,3 +23,4 @@ public class Booking
     public int? EndMileage { get; set; }
     public decimal? ExtraCharges { get; set; }
 }
+

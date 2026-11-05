@@ -8,3 +8,4 @@ public enum VehicleCategory
     Luxury,
     Van
 }
+

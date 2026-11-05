@@ -18,3 +18,4 @@ public static class LoyaltyService
         customer.LoyaltyTier = target;
     }
 }
+

@@ -6,3 +6,4 @@ public class InvalidBookingStateException : Exception
     {
     }
 }
+

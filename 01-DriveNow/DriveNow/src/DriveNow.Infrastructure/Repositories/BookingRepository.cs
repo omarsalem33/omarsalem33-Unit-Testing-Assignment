@@ -4,7 +4,7 @@ using DriveNow.Infrastructure.Persistence;
 
 namespace DriveNow.Infrastructure.Repositories;
 
-public class BookingRepository
+public class BookingRepository : DriveNow.Domain.Abstractions.IBookingRepository
 {
     public Booking? GetById(int id) =>
         InMemoryDatabase.Bookings.FirstOrDefault(booking => booking.Id == id);
@@ -34,3 +34,5 @@ public class BookingRepository
         InMemoryDatabase.Bookings.Count(booking => booking.CustomerId == customerId
             && booking.Status is BookingStatus.Reserved or BookingStatus.Active);
 }
+
+

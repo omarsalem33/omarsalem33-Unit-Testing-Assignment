@@ -13,3 +13,4 @@ public class PromoCode
     public int MaxUses { get; set; }
     public int UsedCount { get; set; }
 }
+

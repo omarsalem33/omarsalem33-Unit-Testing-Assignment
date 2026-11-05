@@ -2,7 +2,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DriveNow.Domain\DriveNow.Domain.csproj" />
-    <ProjectReference Include="..\DriveNow.Infrastructure\DriveNow.Infrastructure.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
@@ -13,4 +12,5 @@
 
   <ItemGroup><InternalsVisibleTo Include="DriveNow.UnitTests" /></ItemGroup>
 </Project>
+
 

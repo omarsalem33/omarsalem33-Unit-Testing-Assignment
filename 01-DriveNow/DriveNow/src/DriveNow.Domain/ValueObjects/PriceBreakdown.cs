@@ -13,3 +13,4 @@ public class PriceBreakdown
     public decimal AdditionalDriversCost { get; set; }
     public decimal Total { get; set; }
 }
+

@@ -7,3 +7,4 @@ public enum LoyaltyTier
     Gold,
     Platinum
 }
+

@@ -33,3 +33,4 @@ public class LineItemFactory : ILineItemFactory
             items.Add(new LineItem { Description = description, Amount = amount });
     }
 }
+

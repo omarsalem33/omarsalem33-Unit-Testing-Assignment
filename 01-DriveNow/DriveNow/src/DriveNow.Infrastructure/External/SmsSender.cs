@@ -1,6 +1,6 @@
 namespace DriveNow.Infrastructure.External;
 
-public class SmsSender
+public class SmsSender : DriveNow.Domain.Abstractions.ISmsSender
 {
     public void Send(string phone, string text)
     {
@@ -8,3 +8,5 @@ public class SmsSender
         Console.WriteLine($"[SMS to {phone}] {text}");
     }
 }
+
+

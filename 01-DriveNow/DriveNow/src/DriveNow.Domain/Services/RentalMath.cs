@@ -40,3 +40,4 @@ public static class RentalMath
         return new DateTime(year, start.Month, day);
     }
 }
+

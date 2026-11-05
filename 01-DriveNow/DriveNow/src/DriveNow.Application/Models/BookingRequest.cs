@@ -12,3 +12,4 @@ public class BookingRequest
     public int AdditionalDrivers { get; set; }
     public string? PromoCode { get; set; }
 }
+

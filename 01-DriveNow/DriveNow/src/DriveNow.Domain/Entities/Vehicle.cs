@@ -12,3 +12,4 @@ public class Vehicle
     public int Mileage { get; set; }
     public bool IsAvailable { get; set; }
 }
+

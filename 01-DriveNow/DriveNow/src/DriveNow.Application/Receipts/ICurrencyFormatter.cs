@@ -4,3 +4,4 @@ public interface ICurrencyFormatter
 {
     string Format(decimal amount);
 }
+

@@ -10,6 +10,7 @@ using DriveNow.Domain.Services;
 using DriveNow.Domain.ValueObjects;
 using DriveNow.Infrastructure.External;
 using DriveNow.Infrastructure.Repositories;
+using DriveNow.Infrastructure.Persistence;
 
 namespace DriveNow.ConsoleApp;
 
@@ -18,10 +19,11 @@ internal static class Program
     static readonly CustomerRepo Customers = new();
     static readonly VehicleRepository Vehicles = new();
     static readonly BookingRepository Bookings = new();
-    static readonly PricingService Pricing = new();
-    static readonly BookingService BookingService = new();
-    static readonly ReturnService ReturnService = new();
-    static readonly CancellationService CancellationService = new();
+    static readonly SystemClock Clock = new();
+    static readonly PricingService Pricing = new(new PromoCodeRepository(), Clock);
+    static readonly BookingService BookingService = new(Customers, Vehicles, Bookings, new PromoCodeRepository(), Pricing, new PaymentGateway(), new SmsSender(), new EmailSender(), new DriveNow.Infrastructure.Logging.AuditLogger(), Clock, new DriveNow.Infrastructure.Persistence.BookingReferenceGenerator());
+    static readonly ReturnService ReturnService = new(Bookings, Vehicles, Customers, new PaymentGateway(), new EmailSender(), new DriveNow.Infrastructure.Logging.AuditLogger(), Clock, new ReceiptService(new LineItemFactory(), new TaxCalculator(), new CurrencyFormatter(), new ReceiptFormatter()));
+    static readonly CancellationService CancellationService = new(Bookings, Vehicles, Customers, new PromoCodeRepository(), new PaymentGateway(), new SmsSender(), new EmailSender(), new DriveNow.Infrastructure.Logging.AuditLogger(), Clock);
 
     static void Main(string[] args)
     {
@@ -321,4 +323,9 @@ internal static class Program
     static string Money(decimal amount) =>
         amount.ToString("N2", CultureInfo.InvariantCulture);
 }
+
+
+
+
+
 

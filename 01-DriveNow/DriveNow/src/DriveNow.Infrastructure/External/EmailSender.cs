@@ -1,6 +1,6 @@
 namespace DriveNow.Infrastructure.External;
 
-public class EmailSender
+public class EmailSender : DriveNow.Domain.Abstractions.IEmailSender
 {
     public void Send(string to, string subject, string body)
     {
@@ -11,3 +11,5 @@ public class EmailSender
         File.WriteAllText(path, content);
     }
 }
+
+

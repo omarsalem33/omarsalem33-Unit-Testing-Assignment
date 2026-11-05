@@ -6,3 +6,4 @@ public enum InsurancePlan
     Standard,
     Premium
 }
+

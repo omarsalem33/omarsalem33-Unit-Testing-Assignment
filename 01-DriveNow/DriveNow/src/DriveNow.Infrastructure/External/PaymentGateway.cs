@@ -1,6 +1,6 @@
 namespace DriveNow.Infrastructure.External;
 
-public class PaymentGateway
+public class PaymentGateway : DriveNow.Domain.Abstractions.IPaymentGateway
 {
     public string Charge(int customerId, decimal amount, string description)
     {
@@ -33,3 +33,5 @@ public class PaymentGateway
         return new string(chars);
     }
 }
+
+

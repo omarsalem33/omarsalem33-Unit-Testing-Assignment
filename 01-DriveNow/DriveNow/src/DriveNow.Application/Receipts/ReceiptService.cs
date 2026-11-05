@@ -50,3 +50,4 @@ public class ReceiptService
         return _receipts.Render(booking.Reference, lines);
     }
 }
+

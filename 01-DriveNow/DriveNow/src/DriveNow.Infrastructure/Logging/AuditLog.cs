@@ -8,3 +8,8 @@ public static class AuditLog
         File.AppendAllText(path, $"[{DateTime.Now:O}] {message}{Environment.NewLine}");
     }
 }
+
+public sealed class AuditLogger : DriveNow.Domain.Abstractions.IAuditLogger
+{
+    public void Write(string message) => AuditLog.Write(message);
+}

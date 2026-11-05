@@ -14,3 +14,4 @@ public class Customer
     public bool IsBlacklisted { get; set; }
     public int CompletedRentals { get; set; }
 }
+

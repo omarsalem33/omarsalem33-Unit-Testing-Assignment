@@ -1,16 +1,20 @@
 using DriveNow.Application.Models;
+using DriveNow.Domain.Abstractions;
+using DriveNow.Application.Abstractions;
 using DriveNow.Domain.Entities;
 using DriveNow.Domain.Enums;
 using DriveNow.Domain.Exceptions;
 using DriveNow.Domain.Services;
 using DriveNow.Domain.ValueObjects;
-using DriveNow.Infrastructure.Repositories;
+
 
 namespace DriveNow.Application.Services;
 
-public class PricingService
+public class PricingService : IPricingService
 {
-    readonly PromoCodeRepository _promos = new();
+    readonly IPromoCodeRepository _promos;
+    readonly IClock _clock;
+    public PricingService(IPromoCodeRepository promos, IClock clock) { _promos = promos; _clock = clock; }
 
     public PriceBreakdown Calculate(Customer customer, Vehicle vehicle, BookingRequest request)
     {
@@ -76,7 +80,7 @@ public class PricingService
         var promo = _promos.GetByCode(code)
             ?? throw new InvalidPromoCodeException($"Promo code '{code}' does not exist");
 
-        if (DateTime.Today < promo.ValidFrom || DateTime.Today > promo.ValidUntil)
+        if (_clock.Today < promo.ValidFrom || _clock.Today > promo.ValidUntil)
             throw new InvalidPromoCodeException($"Promo code '{code}' has expired");
 
         if (days < promo.MinDays)
@@ -117,4 +121,7 @@ public class PricingService
     static decimal Round(decimal amount) =>
         Math.Round(amount, 2, MidpointRounding.AwayFromZero);
 }
+
+
+
 

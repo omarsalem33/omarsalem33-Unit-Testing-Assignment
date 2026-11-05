@@ -3,7 +3,7 @@ using DriveNow.Infrastructure.Persistence;
 
 namespace DriveNow.Infrastructure.Repositories;
 
-public class CustomerRepo
+public class CustomerRepo : DriveNow.Domain.Abstractions.ICustomerRepository
 {
     public Customer? GetById(int id) =>
         InMemoryDatabase.Customers.FirstOrDefault(customer => customer.Id == id);
@@ -17,3 +17,5 @@ public class CustomerRepo
             InMemoryDatabase.Customers[index] = customer;
     }
 }
+
+

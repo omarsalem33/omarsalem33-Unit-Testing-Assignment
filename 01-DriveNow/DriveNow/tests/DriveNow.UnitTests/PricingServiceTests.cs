@@ -1,5 +1,7 @@
 using DriveNow.Application.Models;
 using DriveNow.Application.Services;
+using DriveNow.Application.Abstractions;
+using DriveNow.Domain.Abstractions;
 using DriveNow.Domain.Entities;
 using DriveNow.Domain.Enums;
 using FluentAssertions;
@@ -8,7 +10,7 @@ namespace DriveNow.UnitTests;
 
 public class PricingServiceTests
 {
-    readonly PricingService _sut = new();
+    readonly PricingService _sut = new(new PromoRepository(), new FixedClock(DateTime.Today));
 
     [Fact]
     [Trait("Rule", "BR-30")]
@@ -119,5 +121,18 @@ public class PricingServiceTests
         var offset = ((int)day - (int)from.DayOfWeek + 7) % 7;
         return from.Date.AddDays(offset == 0 ? 7 : offset);
     }
-}
+    sealed class FixedClock(DateTime today) : IClock { public DateTime Now => today; public DateTime Today => today; }
+    sealed class PromoRepository : IPromoCodeRepository
+    {
+        readonly List<PromoCode> _items = [
+            new() { Code="SAVE15", DiscountPercent=15, ValidFrom=DateTime.Today.AddDays(-10), ValidUntil=DateTime.Today.AddDays(60), MinDays=1, MaxUses=100, UsedCount=3 },
+            new() { Code="WEEKLY20", DiscountPercent=20, ValidFrom=DateTime.Today.AddDays(-5), ValidUntil=DateTime.Today.AddDays(90), MinDays=7, MaxUses=50 },
+            new() { Code="LUX10", DiscountPercent=10, ValidFrom=DateTime.Today.AddDays(-30), ValidUntil=DateTime.Today.AddDays(30), MinDays=2, AllowedCategories=[VehicleCategory.Luxury], MaxUses=20, UsedCount=20 },
+            new() { Code="SUMMER25", DiscountPercent=25, ValidFrom=DateTime.Today.AddDays(-120), ValidUntil=DateTime.Today.AddDays(-30), MinDays=1, MaxUses=100 }
+        ];
+        public PromoCode? GetByCode(string code) => _items.FirstOrDefault(p => string.Equals(p.Code,code,StringComparison.OrdinalIgnoreCase));
+        public void Update(PromoCode promo) { }
+    }}
+
+
 
