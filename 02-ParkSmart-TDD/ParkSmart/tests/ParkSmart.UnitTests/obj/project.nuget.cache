@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "4RLFzkwCySM=",
+  "success": true,
+  "projectFilePath": "D:\\.NET Course\\Assignments\\C# Assingments\\omarsalem33-Unit-Testing-Assignment\\02-ParkSmart-TDD\\ParkSmart\\tests\\ParkSmart.UnitTests\\ParkSmart.UnitTests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\fluentassertions\\7.2.2\\fluentassertions.7.2.2.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\microsoft.codecoverage\\18.11.0\\microsoft.codecoverage.18.11.0.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\microsoft.net.test.sdk\\18.11.0\\microsoft.net.test.sdk.18.11.0.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\microsoft.testplatform.objectmodel\\18.11.0\\microsoft.testplatform.objectmodel.18.11.0.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\microsoft.testplatform.testhost\\18.11.0\\microsoft.testplatform.testhost.18.11.0.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.0\\system.configuration.configurationmanager.6.0.0.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\system.security.cryptography.protecteddata\\6.0.0\\system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\xunit\\2.9.3\\xunit.2.9.3.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\xunit.analyzers\\1.18.0\\xunit.analyzers.1.18.0.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\xunit.assert\\2.9.3\\xunit.assert.2.9.3.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\xunit.core\\2.9.3\\xunit.core.2.9.3.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\xunit.extensibility.core\\2.9.3\\xunit.extensibility.core.2.9.3.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\xunit.extensibility.execution\\2.9.3\\xunit.extensibility.execution.2.9.3.nupkg.sha512",
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\xunit.runner.visualstudio\\2.8.2\\xunit.runner.visualstudio.2.8.2.nupkg.sha512"
+  ],
+  "logs": []
+}
