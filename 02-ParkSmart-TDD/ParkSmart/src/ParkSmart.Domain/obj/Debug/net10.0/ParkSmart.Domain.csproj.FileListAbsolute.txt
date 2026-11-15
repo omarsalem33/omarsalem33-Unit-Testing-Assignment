@@ -1,0 +1,12 @@
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Domain\bin\Debug\net10.0\ParkSmart.Domain.deps.json
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Domain\bin\Debug\net10.0\ParkSmart.Domain.dll
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Domain\bin\Debug\net10.0\ParkSmart.Domain.pdb
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Domain\obj\Debug\net10.0\ParkSmart.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Domain\obj\Debug\net10.0\ParkSmart.Domain.AssemblyInfoInputs.cache
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Domain\obj\Debug\net10.0\ParkSmart.Domain.AssemblyInfo.cs
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Domain\obj\Debug\net10.0\ParkSmart.Domain.csproj.CoreCompileInputs.cache
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Domain\obj\Debug\net10.0\ParkSmart.Domain.sourcelink.json
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Domain\obj\Debug\net10.0\ParkSmart.Domain.dll
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Domain\obj\Debug\net10.0\refint\ParkSmart.Domain.dll
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Domain\obj\Debug\net10.0\ParkSmart.Domain.pdb
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Domain\obj\Debug\net10.0\ref\ParkSmart.Domain.dll

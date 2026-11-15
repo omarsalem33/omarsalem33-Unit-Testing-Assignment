@@ -1,0 +1,5 @@
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\obj\Debug\net10.0\ParkSmart.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\obj\Debug\net10.0\ParkSmart.ConsoleApp.AssemblyInfoInputs.cache
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\obj\Debug\net10.0\ParkSmart.ConsoleApp.AssemblyInfo.cs
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\obj\Debug\net10.0\ParkSmart.ConsoleApp.csproj.CoreCompileInputs.cache
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\obj\Debug\net10.0\ParkSmart.ConsoleApp.sourcelink.json

@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ParkSmart.Application/ParkSmart.Application.csproj" />
+    <Project Path="src/ParkSmart.ConsoleApp/ParkSmart.ConsoleApp.csproj" />
+    <Project Path="src/ParkSmart.Domain/ParkSmart.Domain.csproj" />
+    <Project Path="src/ParkSmart.Infrastructure/ParkSmart.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ParkSmart.ArchitectureTests/ParkSmart.ArchitectureTests.csproj" />
+    <Project Path="tests/ParkSmart.UnitTests/ParkSmart.UnitTests.csproj" />
+  </Folder>
+</Solution>

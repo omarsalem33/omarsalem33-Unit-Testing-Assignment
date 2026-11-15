@@ -1,0 +1,7 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=366c05a4_002D9420_002D4de4_002Db28d_002Ddc134c5592c9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ParkSmartArchitectureTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::6A7CE2CE-FB62-ADE8-C578-881909A04B8D::net10.0::ParkSmart.ArchitectureTests.ParkSmartArchitectureTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::369D5A40-C2A9-F065-AEE2-6AD98F0A3A41::net10.0::ParkSmart.UnitTests.ParkingFeeCalculatorTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

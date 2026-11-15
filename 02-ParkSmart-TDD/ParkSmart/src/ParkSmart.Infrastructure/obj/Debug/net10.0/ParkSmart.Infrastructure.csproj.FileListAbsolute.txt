@@ -1,0 +1,16 @@
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Infrastructure\bin\Debug\net10.0\ParkSmart.Infrastructure.deps.json
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Infrastructure\bin\Debug\net10.0\ParkSmart.Infrastructure.dll
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Infrastructure\bin\Debug\net10.0\ParkSmart.Infrastructure.pdb
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Infrastructure\bin\Debug\net10.0\ParkSmart.Domain.dll
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Infrastructure\bin\Debug\net10.0\ParkSmart.Domain.pdb
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Infrastructure\obj\Debug\net10.0\ParkSmart.Infrastructure.csproj.AssemblyReference.cache
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Infrastructure\obj\Debug\net10.0\ParkSmart.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Infrastructure\obj\Debug\net10.0\ParkSmart.Infrastructure.AssemblyInfoInputs.cache
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Infrastructure\obj\Debug\net10.0\ParkSmart.Infrastructure.AssemblyInfo.cs
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Infrastructure\obj\Debug\net10.0\ParkSmart.Infrastructure.csproj.CoreCompileInputs.cache
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Infrastructure\obj\Debug\net10.0\ParkSmart.Infrastructure.sourcelink.json
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Infrastructure\obj\Debug\net10.0\ParkSmar.94B5EE23.Up2Date
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Infrastructure\obj\Debug\net10.0\ParkSmart.Infrastructure.dll
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Infrastructure\obj\Debug\net10.0\refint\ParkSmart.Infrastructure.dll
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Infrastructure\obj\Debug\net10.0\ParkSmart.Infrastructure.pdb
+D:\.NET Course\Assignments\C# Assingments\omarsalem33-Unit-Testing-Assignment\02-ParkSmart-TDD\ParkSmart\src\ParkSmart.Infrastructure\obj\Debug\net10.0\ref\ParkSmart.Infrastructure.dll
